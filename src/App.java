@@ -27,8 +27,10 @@ public class App {
          * podemos
          * realizar operaciones básicas de manera creativa en programación.
          */
-        int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
-
+        int resultado = dataStructuresPrep.subtractAlgorithm(10, 2);
+        int resultadoMultiplicacion = dataStructuresPrep.multiplyAlgorithm(5, 3);
+        int dividir = dataStructuresPrep.divideWAlgorithm(6, 2);
+        int fac = dataStructuresPrep.getFactorial(6);
         /*
          * Imprimir el resultado de la operación.
          * 
@@ -44,6 +46,9 @@ public class App {
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
         System.out.println("El resultado de restar 15 - 5 sin usar el operador de resta es: " + resultado);
+        System.out.println("El resultado de multiplicar 5 x 3 sin usar el operador de multiplicar es: " + resultadoMultiplicacion);
+        System.out.println("El resultado de dividir 6 / 2 sin usar el operador de dividir es: " + dividir);
+        System.out.println("El resultado de factorial es: " + fac);
 
     }
 }
